@@ -1,0 +1,51 @@
+#wrap{  width: 100%;display: flex;flex-direction: column; align-items: center;}
+#main{width:1200px;
+height:1000px;}
+#header{width:100%;
+    height:200px;
+display: flex;justify-content: end;align-items: center;}
+#header .name{width:400px;
+    height:100px;display: flex;justify-content: center;align-items: center;
+    font-size: 30px;
+    }
+#main_pic{width:100%;  height:800px;
+}
+#main_pic ul{ display: flex; justify-content: space-around; flex-wrap: wrap;}
+#main_pic img{width:380px;  height:250px;}
+
+#contents{width:1200px;
+    height:1000px;background-color:#000080;}
+#contents_head{width:1200px;margin-top: 20px;
+        height:200px;background-color: rgb(228, 145, 50);} 
+
+ #myname{width:200px;padding-top:30px;padding-left:180px;
+    height:80px;  font-size: 40px;color:white;} 
+    #front{width:200px;padding-left:200px;
+        height:40px;  font-size: 20px;color: #000080; }
+
+ #contents_main{width:1200px;
+    height:800px;display: flex;justify-content: space-around;flex-wrap: wrap;}
+    #contents_notice{width:500px;
+        height:380px;}
+
+#notice_title{margin:20px 0 0 20px;font-size: 25px;
+    color:rgb(228, 145, 50)}
+#notice_main{margin:20px 0 0 20px;font-size: 20px;color:white;}
+     #contents_call{width:500px;
+        height:380px;}
+        #call_title{margin:20px 0 0 20px;font-size: 25px;
+            color:rgb(228, 145, 50)}
+            #call_main{margin:20px 0 0 20px;font-size: 20px;color:white;}
+     #contents_graf{width:500px;
+        height:360px;}
+        #graf_title{margin:20px 0 0 20px;font-size: 25px;
+            color:rgb(228, 145, 50)}
+            #graf_main img{width:480px;
+                height:340px;}
+     #contents_graf2{width:500px;
+        height:360px;}
+        #graf2_title{margin:20px 0 0 20px;font-size: 25px;
+            color:rgb(228, 145, 50)}
+
+   #graf2_main img{width:480px;
+                height:340px;}
