@@ -1,0 +1,349 @@
+#wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6f7a8a;
+  overflow: hidden;
+}
+#main {
+  width: 1200px;
+  height: 1000px;
+}
+#header {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+#header .header_top {
+  margin-top: 10px;
+  float: right;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+#header .header_top li {
+  margin-right: 30px;
+}
+#header .header_top li a {
+  color: rgb(255, 255, 255);
+}
+#header .header_top li.on a {
+  color: rgb(0, 0, 0);
+}
+
+#header .name {
+  margin: 70px -410px 0 0;
+  float: right;
+  width: 400px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+#main_pic {
+  width: 100%;
+  height: 800px;
+}
+#main_pic ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#main_pic img {
+  width: 380px;
+  height: 250px;
+}
+.q_mn {
+  position: absolute;
+  top: 150px;
+  right: 10px;
+  z-index: 9999;
+  width: 150px;
+  height: 250px;
+  border: 1px solid#ccc;
+  background: #333b50;
+}
+.q_mn ul {
+  margin: 20px 0 0 20px;
+}
+.q_mn li {
+  margin-bottom: 10px;
+}
+.q_mn li a {
+  font-size: 25px;
+  color: white;
+}
+.q_mn li.on a {
+  background-color: aqua;
+  color: black;
+  display: block;
+}
+
+#profile {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+}
+#profile::before {
+  content: "";
+  background: url(../images/cup-of-coffee-1280537.jpg);
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+#profile_main {
+  margin: 0 auto;
+  width: 1200px;
+  height: 1000px;
+  position: relative;
+}
+#profile_title {
+  padding: 20px 0 0 30px;
+  width: 300px;
+  height: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+#profile_main p {
+  font-size: 80px;
+  color: white;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+#profile_title > div {
+  margin-top: -170px;
+  margin-left: 200px;
+  font-size: 150px;
+  color: #00d646;
+}
+#profile_main span {
+  font-size: 80px;
+  color: white;
+  margin-left: 250px;
+  font-weight: bold;
+  color: #00d646;
+}
+#profile_main h5 {
+  font-size: 60px;
+  color: white;
+  margin-top: -80px;
+  margin-left: 500px;
+  font-weight: bold;
+}
+
+#skill {
+  width: 1200px;
+  height: 1000px;
+}
+#skill_title {
+  padding: 20px 0 0 30px;
+  width: 300px;
+  height: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+#skill_title > div {
+  margin-top: -170px;
+  margin-left: 120px;
+  font-size: 150px;
+  color: #00d646;
+}
+#skill_main {
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#skill_main > div {
+  margin-bottom: 40px;
+}
+.html_bar {
+  width: 700px;
+  height: 30px;
+  font-weight: 600;
+}
+.html_bar p {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.html_bar .html {
+  margin: -20px 0 0 70px;
+  width: 90%;
+  height: 20px;
+  padding: 0;
+  background-color: #00d646;
+  color: #111;
+}
+.html > p {
+  float: right;
+  margin-right: -50px;
+  margin-top: -5px;
+}
+.css_bar {
+  width: 700px;
+  height: 30px;
+  font-weight: 600;
+}
+.css_bar p {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.css_bar .css {
+  margin: -20px 0 0 70px;
+  width: 85%;
+  height: 20px;
+  padding: 0;
+  background-color: #00d646;
+  color: #111;
+}
+.css > p {
+  float: right;
+  margin-right: -50px;
+  margin-top: -5px;
+}
+.javascript_bar {
+  width: 700px;
+  height: 30px;
+  font-weight: 600;
+}
+.javascript_bar p {
+  margin-left: -20px;
+  font-size: 20px;
+}
+.javascript_bar .javascript {
+  margin: -20px 0 0 70px;
+  width: 70%;
+  height: 20px;
+  padding: 0;
+  background-color: #00d646;
+  color: #111;
+}
+.javascript > p {
+  float: right;
+  margin-right: -50px;
+  margin-top: -5px;
+}
+.jquery_bar {
+  width: 700px;
+  height: 30px;
+  font-weight: 600;
+}
+.jquery_bar p {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.jquery_bar .jquery {
+  margin: -20px 0 0 70px;
+  width: 65%;
+  height: 20px;
+  padding: 0;
+  background-color: #00d646;
+  color: #111;
+}
+.jquery > p {
+  float: right;
+  margin-right: -50px;
+  margin-top: -5px;
+}
+.nodejs_bar {
+  width: 700px;
+  height: 30px;
+  font-weight: 600;
+}
+.nodejs_bar p {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.nodejs_bar .nodejs {
+  margin: -20px 0 0 70px;
+  width: 50%;
+  height: 20px;
+  padding: 0;
+  background-color: #00d646;
+  color: #111;
+}
+.nodejs > p {
+  float: right;
+  margin-right: -50px;
+  margin-top: -5px;
+}
+#project {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+}
+
+#project::before {
+  content: "";
+  background: url(../images/workspace-1280538.jpg);
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+#project_main {
+  margin: 0 auto;
+  width: 1200px;
+  height: 1000px;
+  position: relative;
+}
+#project_title {
+  padding: 20px 0 0 30px;
+  width: 300px;
+  height: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+#project_title > div {
+  margin-top: -170px;
+  margin-left: 220px;
+  font-size: 150px;
+  color: #00d646;
+}
+
+#finish {
+  width: 1200px;
+  height: 1000px;
+}
+#finish_main {
+  width: 1200px;
+  height: 1000px;
+}
+#finish_title {
+  padding: 20px 0 0 30px;
+  width: 300px;
+  height: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+#finish_title > div {
+  margin-top: -170px;
+  margin-left: 180px;
+  font-size: 150px;
+  color: #00d646;
+}
